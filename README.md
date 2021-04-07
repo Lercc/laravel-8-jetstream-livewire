@@ -30,4 +30,7 @@
     y componentes, la creación de una aplicación con inercia es igual a la creación de 
     un aplicación con VUE solo que inercia utilizará el sistema de rutas de Laravel en 
     lugar del Enrutador de VUE
- 
+
+
+## CREACIÓN DE COMPONENTE CON LIVEWIRE
+<pre>php artisan make:livewire [ComponentName]</pre>
