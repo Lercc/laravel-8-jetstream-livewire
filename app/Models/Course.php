@@ -9,6 +9,12 @@ class Course extends Model
 {
     use HasFactory;
 
+
+
+    public function getExcerptAttribute() {
+        return substr($this->description,0,80).'...';
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
