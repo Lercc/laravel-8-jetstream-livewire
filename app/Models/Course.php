@@ -19,8 +19,17 @@ class Course extends Model
     {
         return $this->belongsTo(User::class);
     }
+  
     public function posts()
     {
         return $this->hasMany(Post::class);
+    }
+
+    public function similar()
+    {
+        return $this->where('category_id', '=', $this->category_id)
+                    // ->with('user')
+                    ->take(2)
+                    ->get();
     }
 }
