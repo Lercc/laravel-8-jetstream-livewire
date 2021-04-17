@@ -43,7 +43,7 @@
                         <img src="{{ $course->image }}" class="rounded-md mb-2">
                         <h2  truncate uppercase">
                             {{ $course->name }}
-                        </h2>
+                        </h2>   
                         <h3 class="text-md text-gray-500">
                             {{ $course->excerpt }}
                         </h3>
@@ -53,7 +53,7 @@
                         >
                     </a>
                 </div>
-            @endforeach
+                @endforeach
             </div>
         </div>
     </div>
