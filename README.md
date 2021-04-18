@@ -34,3 +34,6 @@
 
 ## CREACIÓN DE COMPONENTE CON LIVEWIRE
 <pre>php artisan make:livewire [ComponentName]</pre>
+
+## CREACIÓN DE COMPONENTE CON BLADE
+<pre>php artisan make:component [ComponentName]</pre>
