@@ -37,3 +37,5 @@
 
 ## CREACIÓN DE COMPONENTE CON BLADE
 <pre>php artisan make:component [ComponentName]</pre>
+
+## END
